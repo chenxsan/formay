@@ -10,6 +10,8 @@ npm install formay
 
 ## Example
 
+[Example on codesandbox](https://codesandbox.io/s/q3xl2l1r09).
+
 ```js
 /** @jsx h */
 import { h, Component } from "preact";
