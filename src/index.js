@@ -23,7 +23,7 @@ export default class Formay extends Component {
         _ => ({
           errors: {}
         }),
-        () => this.props.onSubmit(elseState)
+        () => this.props.onSubmit(elseState, this.setState)
       )
     }
   }
