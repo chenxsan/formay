@@ -1,0 +1,43 @@
+{
+  "name": "formay",
+  "version": "1.0.0",
+  "description": "A dead simple form library for Preact",
+  "main": "dist/formay.cjs.js",
+  "module": "dist/formay.es.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "Preact"
+  ],
+  "homepage": "https://github.com/chenxsan/formay",
+  "bugs": {
+    "url": "https://github.com/chenxsan/formay/issues"
+  },
+  "author": "Sam Chen <chenxsan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "babel-eslint": "^10.0.1",
+    "rollup": "^0.68.0",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-terser": "^3.0.0",
+    "rollup-plugin-uglify": "^6.0.0",
+    "standard": "^12.0.1",
+    "preact": "*"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "peerDependencies": {
+    "preact": "*"
+  },
+  "files": [
+    "src",
+    "dist"
+  ]
+}
