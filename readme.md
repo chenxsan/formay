@@ -35,8 +35,9 @@ export default class SignUpForm extends Component {
           }
           return errors;
         }}
-        onSubmit={values => {
+        onSubmit={(values, setState) => {
           window.alert(JSON.stringify(values));
+          // we can call setState from form here.
         }}
         render={({ state, errors, updateValue, onSubmit }) => (
           <form onSubmit={onSubmit}>
