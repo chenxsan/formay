@@ -19,10 +19,12 @@ export default class Formay extends Component {
         errors: errs
       }))
     } else {
-      this.setState(_ => ({
-        errors: {}
-      }))
-      this.props.onSubmit(elseState)
+      this.setState(
+        _ => ({
+          errors: {}
+        }),
+        () => this.props.onSubmit(elseState)
+      )
     }
   }
   render() {
