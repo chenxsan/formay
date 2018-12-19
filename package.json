@@ -1,6 +1,6 @@
 {
   "name": "formay",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A dead simple form library for Preact",
   "main": "dist/formay.cjs.js",
   "module": "dist/formay.es.js",
