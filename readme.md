@@ -2,6 +2,12 @@
 
 A dead simple form library for Preact with only 1.4kB (gzipped).
 
+## Installation
+
+```sh
+npm install formay
+```
+
 ## Example
 
 ```js
